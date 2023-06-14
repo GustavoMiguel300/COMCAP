@@ -1,0 +1,39 @@
+:root{
+  --main-greencomcap: #437663;
+  --main-greenEscuroComcap: #20443A;
+  --main-laranja: #E77654;
+  --header-verde: #437663
+
+}
+
+*{
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0;
+}
+.div-header-curto{
+  height: auto;
+  display: flex;
+  align-items: center;
+  width: auto;
+  background-color:#437663;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.titulo{
+  padding-top: 15px;
+  font-size: 36px;
+  font-weight: 600;
+  font-weight: bold;
+  align-items: center;
+  margin-left: 8em;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+.img-header{
+  margin-left: 2em;
+}
+.div-header-curto :hover{
+  cursor: pointer;
+}
+

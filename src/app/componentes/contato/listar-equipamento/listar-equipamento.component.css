@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 5px 5px 5px;
+  gap:10px;
+  column-gap: 10px;
+}
+td{
+  padding: 10px 25px 10px 25px;
+
+}
+.titulo-td{
+  margin-right: 100px;
+
+}
+.ajust-reto{
+  padding-left: 40px;
+
+}
+.ajust-reto2{
+  justify-content: center;
+}

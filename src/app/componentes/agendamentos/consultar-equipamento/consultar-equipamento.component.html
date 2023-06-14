@@ -1,0 +1,22 @@
+<div class="teste_header">
+  <app-header-curto></app-header-curto>
+</div>
+<div class="container">
+  <div class="div-arrow" routerLink="/contato">
+    <img src="assets/img/arrow_back.svg" alt="">
+  </div>
+  <div class="img_equip_div">
+    <img class="img_equip" src="assets/img/equipamento_ex.jpg" alt="">
+  </div>
+  <section class="section-text">
+    <div>
+      <p><strong>Nome:</strong>&nbsp;{{ agendamento.nome }}</p>
+      <p><strong>ID:</strong>&nbsp;{{ agendamento.id }}</p>
+    </div>
+    <p><strong>Central:</strong>&nbsp;{{ agendamento.central }} </p>
+    <p><strong>Telefone:</strong>&nbsp;{{ agendamento.telefone }} </p>
+    <p><strong>E-mail:</strong>&nbsp;{{ agendamento.email }} </p>
+    <p><strong>Descrição:</strong>&nbsp;{{ agendamento.descricao }} </p>
+
+  </section>
+</div>

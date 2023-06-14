@@ -1,0 +1,33 @@
+<div class="container">
+  <ng-sidebar-container>
+
+    <ng-sidebar [opened]="opened">
+      <button class="botao_voltar" (click)="toggleSidebar()">
+        <img src="assets/img/arrow_back.svg" alt="">
+      </button>
+      <div class="div_pai_lista">
+        <div class="div_menu">
+          <a class="teste" routerLink="/Home">Home</a>
+        </div>
+        <div class="div_menu">
+          <a routerLink="/Perfil">Perfil</a>
+        </div>
+        <div class="div_menu">
+          <a routerLink="/contato">Agendamento</a>
+        </div>
+        <div class="div_menu">
+          <a routerLink="/Sobre">Sobre</a>
+        </div>
+      </div>
+      <p>Av. Colombo, 5790 - Bloco B08 - Câmpus Universitário CEP: 87020-900 - Maringá - PR - email: cpe-comcap@uem.br</p>
+
+
+    </ng-sidebar>
+    <div ng-sidebar-content>
+
+      <button [matBadgeHidden]="hide" matBadge="!" matBadgeColor="warn" class="botao_menu"(click)="hide=true" (change)="storeBadgeState()" (click)="toggleSidebar()">
+        <img class="_hover_botao" src="assets/img/menu.svg" alt="">
+      </button>
+    </div>
+  </ng-sidebar-container>
+</div>

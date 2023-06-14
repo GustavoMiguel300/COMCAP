@@ -1,0 +1,26 @@
+.divpai{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  gap: 100em;
+  z-index: -1;
+
+}
+.divfilho{
+  width: 100px;
+  height: 100vh;
+  background:#20443A;
+
+
+
+}
+
+.imagemBarraLateral{
+  width: 100px;
+  object-fit:fill;
+}

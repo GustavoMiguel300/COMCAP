@@ -1,0 +1,108 @@
+{
+  "equipamentos":[
+    {
+      "id":0,
+      "nome":"equipamento 1aaaaaaaaaaaa",
+      "email":"colaborador@gmail.com",
+      "central":"CAM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":1,
+      "nome":"equipamento 2aaaaaaaaaaa",
+      "email":"colaborador@gmail.com",
+      "central":"CAA",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":2,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":3,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":4,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":5,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":6,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":7,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":8,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":9,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":10,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":11,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    },
+    {
+      "id":12,
+      "nome":"equipamento 3",
+      "email":"colaborador@gmail.com",
+      "central":"CBM",
+      "telefone":"99999-9999",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ante cursus, porta nibh vel, eleifend ligula. Fusce pretium eros massa, quis scelerisque ex volutpat in."
+    }
+  ]
+}

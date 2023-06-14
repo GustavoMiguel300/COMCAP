@@ -1,0 +1,78 @@
+<app-header-curto></app-header-curto>
+<!-- INPUT DE PESQUISA -->
+<div class="new-container">
+  <mat-form-field>
+  <mat-label>Pesquisar</mat-label>
+  <input (keyup)="filtroDePesquisa($event)" matInput placeholder="Nome, ID ou Central" #input>
+  </mat-form-field>
+<!-- TABELA -->
+  <div>
+    <table mat-table matSort [dataSource]="dataSource">
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>ID</th>
+        <td routerLink="/consultar-equipamento/{{agendamento.id}}" class="teste-bg"  mat-cell *matCellDef="let agendamento">
+              {{ agendamento.id }}
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="central">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Central</th>
+        <td routerLink="/consultar-equipamento/{{agendamento.id}}" mat-cell *matCellDef="let agendamento">{{ agendamento.central }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="nome">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Nome</th>
+        <td routerLink="/consultar-equipamento/{{agendamento.id}}" mat-cell *matCellDef="let agendamento">{{agendamento.nome}}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumn"></tr>
+      <tr mat-row *matRowDef="let agendamento; columns: displayedColumn"></tr>
+
+<!-- QUANDO A ENTRADA DE DADOS ESTA INCORRETA -->
+      <div class="error-div" *matNoDataRow>
+        <p class="error-p">Nenhum resultado encontrado para "{{input.value}}"</p>
+      </div>
+
+    </table>
+    <mat-paginator
+              [pageSize]="8"
+              aria-label="Select page">
+  </mat-paginator>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <section class="container">
+  <tr class="font-padrao">
+    <td class="id-container">ID</td>
+    <div class="teste-gap">
+      <td class="central-container">Central</td>
+      <td class="nome-container">Nome do Equipamento</td>
+    </div>
+  </tr>
+  <div class="risco"></div>
+
+  <div  routerLink="/consultar-equipamento/{{ agendamento.id }}" class="container_agendamentos" *ngFor="let agendamento of listarAgendamentos">
+    <app-agendamento [agendamento]="agendamento"></app-agendamento>
+  </div>
+  <table >
+    <mat-paginator
+                aria-label="Select page"
+                showFirstLastButtons
+                >
+  </mat-paginator>
+  </table>
+
+</section>
+
+
+ -->
+
+

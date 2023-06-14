@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.font-padrao{
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+}
+.container{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 5px 5px 5px;
+  gap:10px;
+  column-gap: 10px;
+
+}
+.teste-gap{
+  display: flex;
+  flex-wrap: wrap;
+  gap:10.5em;
+}
+.central-container{
+  margin-left: 170px;
+}
+.id-container{
+  position: absolute;
+  left: 405px;
+}
+
+td :hover td{
+  cursor: pointer;
+  background-color: #DCDCDC;
+}
+
+
+.container_agendamentos{
+  margin-left: 210px;
+  width: 60%;
+  margin-right:7.5em;
+}
+
+.container_agendamentos:hover{
+  cursor: pointer;
+  background-color: #DCDCDC;
+}
+
+
+
+
+
+
+
+
+.new-container{
+  width: 60%;
+  margin-left: 25rem;
+  margin-top: 50px;
+}
+.teste-bg :hover{
+  background-color: aqua;
+}
+mat-list-item :hover{
+  background-color: aqua;
+}
+
+/* error */
+.error-div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ width: 800px;
+ height: 350px;
+}
+
+.error-p{
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}

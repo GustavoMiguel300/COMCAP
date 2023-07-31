@@ -1,0 +1,28 @@
+.div_pai_sobre_comcap{
+  width: 75vw;
+  height: 50vh;
+  position: absolute;
+  left: 12em;
+  top: 12em;
+}
+h1{
+  font: 20px;
+  color:#437663;
+}
+h3{padding-bottom: 15px;}
+.div-arrow{
+  width:10px;
+   margin-bottom: 2rem;
+}
+img{
+  width: 30px;
+}
+.div-arrow:hover{
+  cursor: pointer;
+}
+p{
+  text-align: justify;
+}
+.teste_header{
+  width: 101.1%;
+}

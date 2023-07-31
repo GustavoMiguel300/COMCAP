@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'COMCAP';
+
+  opened = false;
+
+
+  toggleSidebar(){
+    this.opened = !this.opened
+  }
 }

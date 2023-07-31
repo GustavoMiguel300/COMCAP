@@ -10,19 +10,19 @@
     <table mat-table matSort [dataSource]="dataSource">
       <ng-container matColumnDef="id">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>ID</th>
-        <td routerLink="/consultar-equipamento/{{agendamento.id}}" class="teste-bg"  mat-cell *matCellDef="let agendamento">
+        <td class="houver-td" routerLink="/consultar-equipamento/{{agendamento.id}}" class="teste-bg"  mat-cell *matCellDef="let agendamento">
               {{ agendamento.id }}
         </td>
       </ng-container>
 
       <ng-container matColumnDef="central">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>Central</th>
-        <td routerLink="/consultar-equipamento/{{agendamento.id}}" mat-cell *matCellDef="let agendamento">{{ agendamento.central }}</td>
+        <td class="houver-td" routerLink="/consultar-equipamento/{{agendamento.id}}" mat-cell *matCellDef="let agendamento">{{ agendamento.central }}</td>
       </ng-container>
 
       <ng-container matColumnDef="nome">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>Nome</th>
-        <td routerLink="/consultar-equipamento/{{agendamento.id}}" mat-cell *matCellDef="let agendamento">{{agendamento.nome}}</td>
+        <td class="houver-td" routerLink="/consultar-equipamento/{{agendamento.id}}" mat-cell *matCellDef="let agendamento">{{agendamento.nome}}</td>
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="displayedColumn"></tr>

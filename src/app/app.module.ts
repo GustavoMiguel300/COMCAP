@@ -28,6 +28,8 @@ import { ListarAgendamentosComponent } from './componentes/agendamentos/listar-a
 import { ConsultarEquipamentoComponent } from './componentes/agendamentos/consultar-equipamento/consultar-equipamento.component';
 import { HeaderCurtoComponent } from './componentes/header-curto/header-curto.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SobreComcapComponent } from './componentes/artigos/sobre-comcap/sobre-comcap.component';
+import { HistoricoComponent } from './componentes/artigos/historico/historico.component';
 
 
 
@@ -46,6 +48,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ListarAgendamentosComponent,
     ConsultarEquipamentoComponent,
     HeaderCurtoComponent,
+    SobreComcapComponent,
+    HistoricoComponent,
 
 
   ],

@@ -13,6 +13,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 import { EquipamentoComponent } from './componentes/contato/equipamento/equipamento.component';
@@ -68,7 +70,9 @@ import { HistoricoComponent } from './componentes/artigos/historico/historico.co
     MatTableModule,
     MatSortModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSidenavModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

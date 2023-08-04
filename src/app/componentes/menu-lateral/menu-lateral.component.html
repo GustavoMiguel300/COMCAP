@@ -7,16 +7,16 @@
       </button>
       <div class="div_pai_lista">
         <div class="div_menu">
-          <a class="teste" routerLink="/Home">Home</a>
+          <a class="teste" (click)="toggleSidebar()" routerLink="/Home">Home</a>
         </div>
         <div class="div_menu">
-          <a routerLink="/Perfil">Perfil</a>
+          <a (click)="toggleSidebar()" routerLink="/Perfil">Perfil</a>
         </div>
         <div class="div_menu">
-          <a routerLink="/contato">Agendamento</a>
+          <a (click)="toggleSidebar()" routerLink="/contato">Agendamento</a>
         </div>
         <div class="div_menu">
-          <a routerLink="/Sobre">Sobre</a>
+          <a (click)="toggleSidebar()" routerLink="/Sobre">Sobre</a>
         </div>
       </div>
       <p>Av. Colombo, 5790 - Bloco B08 - Câmpus Universitário CEP: 87020-900 - Maringá - PR - email: cpe-comcap@uem.br</p>

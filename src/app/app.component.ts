@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SidebarModule } from 'ng-sidebar';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'COMCAP';
-
-  opened = false;
-
+  opened = true;
 
   toggleSidebar(){
     this.opened = !this.opened
   }
+
+
+
 }

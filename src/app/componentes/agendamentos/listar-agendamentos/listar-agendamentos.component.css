@@ -58,6 +58,8 @@ td :hover td{
   width: 60%;
   margin-left: 25rem;
   margin-top: 50px;
+  z-index: 0;
+
 }
 .teste-bg :hover{
   background-color: aqua;

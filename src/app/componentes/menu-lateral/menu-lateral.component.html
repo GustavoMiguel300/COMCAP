@@ -1,7 +1,11 @@
 <div class="container">
   <ng-sidebar-container>
 
-    <ng-sidebar [opened]="opened">
+    <ng-sidebar
+     [opened]="opened"
+     [closeOnClickOutside]="_closeOnClickOutside"
+     [animate]="_animate"
+     >
       <button class="botao_voltar" (click)="toggleSidebar()">
         <img src="assets/img/arrow_back.svg" alt="">
       </button>

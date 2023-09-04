@@ -7,7 +7,7 @@
   padding: 0px;
   position: fixed;
   top: 0;
-  gap: 100em;
+  gap: 110.4em;
   z-index: -1;
 
 }
@@ -15,9 +15,6 @@
   width: 100px;
   height: 100vh;
   background:#20443A;
-
-
-
 }
 
 .imagemBarraLateral{

@@ -10,17 +10,17 @@
   width: 300px;
 
   top: 0px;
-  left: 100px;
+  left: 87px;
 }
 
 ::ng-deep .ng-sidebar{
   position: sticky;
   top: 0;
-  background-color: rgba(67, 118, 99,0.5);
-  width: 220px;
+  background-color: rgba(67, 118, 99,0.75);
+  width: 260px;
   height: 100vh;
   padding: 2em 3em;
-  box-shadow: 0 0 2.5em rgba(85, 85 , 85 , 0.5);
+  
 
 }
 .botao_menu{

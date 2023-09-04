@@ -15,4 +15,93 @@ h1{
   height: 50px;
   z-index: -1;
 }
+.teste_header{
+  width: 100.9%;
+}
+#slider{
+  position: absolute;
+  top: 63px;
+  left: 88px;
+  width: 90.7%;
+  height: 90vh;
+  z-index: -1;
+  object-fit: cover;
+  
+}
+#mainSlider img{
+  
+  height: 70vh;
+  object-fit: cover;
+}
+
+#mainSlider .carousel-caption{
+  position: absolute;
+  height: 150px;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(119, 131, 118, 0.75);
+}
+
+#mainSlider .carousel-caption p{
+  position: static;
+  margin-bottom: 20px;
+}
+
+#mainSlider h2{
+  position: static;
+  font-size: 28px;
+}
+
+#mainSlider .carousel-caption h2:hover{
+  color: #db4b27;
+}
+
+.main-title{
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 24px;
+  text-align: center;
+  position: relative
+}
+.main-title::after{
+  margin-top: 0px;
+  content: "";
+  border-top: 2px solid #333;
+  width: 5%;
+  position: absolute;
+  top: 30px;
+  left: 47.5%;
+}
+
+/* card */
+.card{
+  margin-bottom: 10px;
+}
+.card-body h5{
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: .5;
+}
+.card-body h5:hover{
+  color: #db4b27;
+  cursor: pointer;
+}
+
+.leia-mais{
+  color:#437663;
+  text-decoration: underline;
+}
+.leia-mais:hover{
+  cursor: pointer;
+}
+
+.card{
+  margin-bottom: 10px;
+  
+  font-size: 16px;
+  transition: 0.5;
+}
+
+
 

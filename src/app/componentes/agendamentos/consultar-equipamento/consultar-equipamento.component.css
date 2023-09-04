@@ -35,6 +35,7 @@
 .div-arrow{
   margin-right: 48rem;
   margin-bottom: 2rem;
+  z-index: 1;
 }
 .div-arrow:hover{
   cursor: pointer;

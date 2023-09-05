@@ -88,13 +88,14 @@
   flex-direction: column;
 }
 ::ng-deep .div_menu :hover{
-  color: #20443A;
+  color: #db4b27;
   cursor: pointer;
 }
 
 ::ng-deep .div_menu{
   padding-top: 60px;
   margin-right: 20px;
+  transition: .5;
 }
 
 a{

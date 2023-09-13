@@ -5,14 +5,14 @@
 }
 .div-pai{
   width: 100%;
-  height: 280px;
-  margin-top: 50px;
+  height: 407px;
+  margin-top: 0px;
   align-items: center;
   justify-content: center;
   display: flex;
 }
 
 img{
-  height: 280px;
-  width: 383px;
+  height: 407px;
+  width: 369px;
 }

@@ -32,6 +32,9 @@ import { HeaderCurtoComponent } from './componentes/header-curto/header-curto.co
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SobreComcapComponent } from './componentes/artigos/sobre-comcap/sobre-comcap.component';
 import { HistoricoComponent } from './componentes/artigos/historico/historico.component';
+import { LoginUsuarioComponent } from './componentes/login/login-usuario/login-usuario.component';
+import { LoginColaboradorComponent } from './componentes/login/login-colaborador/login-colaborador.component';
+import { CriarContaComponent } from './componentes/login/criar-conta/criar-conta.component';
 
 
 
@@ -52,6 +55,9 @@ import { HistoricoComponent } from './componentes/artigos/historico/historico.co
     HeaderCurtoComponent,
     SobreComcapComponent,
     HistoricoComponent,
+    LoginUsuarioComponent,
+    LoginColaboradorComponent,
+    CriarContaComponent,
 
 
   ],

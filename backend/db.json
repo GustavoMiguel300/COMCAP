@@ -2,7 +2,7 @@
   "equipamentos":[
     {
       "id":0,
-      "nome":"equipamento 1aaaaaaaaaaaa",
+      "nome":"equipamento 1",
       "email":"colaborador@gmail.com",
       "central":"CAM",
       "telefone":"99999-9999",
@@ -10,7 +10,7 @@
     },
     {
       "id":1,
-      "nome":"equipamento 2aaaaaaaaaaa",
+      "nome":"equipamento 2",
       "email":"colaborador@gmail.com",
       "central":"CAA",
       "telefone":"99999-9999",

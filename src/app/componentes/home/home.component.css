@@ -55,6 +55,7 @@ h1{
 
 #mainSlider .carousel-caption h2:hover{
   color: #db4b27;
+  cursor: pointer;
 }
 
 .main-title{

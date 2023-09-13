@@ -1,0 +1,95 @@
+*
+{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.formulario-div{
+    display: flex;
+    width: 450px;
+    height: 375px;
+    margin-top: 50px;
+    border: 5px solid #21443a;
+    border-radius: 60px;
+    justify-content: center;
+    margin-left: 32.5%;
+    background-color: #fff;
+}
+
+#formulario{
+    text-align: center ;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;  
+}
+#formulario h3{
+    font-size: 1.5em;
+    color: #21443a;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+.input-box{
+    position: relative;
+    width: 250px;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C1B8B8;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    background-color: #fff;
+}
+.input-box span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: #C1B8B8;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.input-box input:valid ~ span,
+.input-box input:focus ~ span{
+    transform: translateX(12px) translateY(-7px);
+    font-size: 0.8em;
+    padding: 0 10px;
+    background-color: #fff;
+}
+.cadastrar-call{
+    margin-top: -30px;
+    margin-right: 80px;
+    font-size: 0.65em;
+    color: #437764;
+}
+.cadastrar-link:hover{
+    cursor: pointer;
+    color: #21443a;
+}
+ form .submit-buttom{
+    width: 100px;
+    padding: 7px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #21443a;
+    border: 5px solid #fff;
+    position: absolute;
+    top:810px;
+    left: 810px;
+    transition: 0.5s;
+ }
+ form .submit-buttom:hover{
+    cursor: pointer;
+    background-color: #437764;
+ }

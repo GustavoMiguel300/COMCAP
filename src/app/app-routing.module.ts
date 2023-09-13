@@ -1,5 +1,5 @@
 
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './componentes/home/home.component';
 import { PerfilComponent } from './componentes/perfil/perfil.component';
@@ -9,13 +9,15 @@ import { ListarAgendamentosComponent } from './componentes/agendamentos/listar-a
 import { ConsultarEquipamentoComponent } from './componentes/agendamentos/consultar-equipamento/consultar-equipamento.component';
 import { HistoricoComponent } from './componentes/artigos/historico/historico.component';
 import { SobreComcapComponent } from './componentes/artigos/sobre-comcap/sobre-comcap.component';
+import { LoginUsuarioComponent } from './componentes/login/login-usuario/login-usuario.component';
+import { LoginColaboradorComponent } from './componentes/login/login-colaborador/login-colaborador.component';
 
 
 const routes: Routes = [
 
   {
     path:'',
-    redirectTo:'contato',
+    redirectTo:'login',
     pathMatch:'full'
   },
   {
@@ -50,6 +52,14 @@ const routes: Routes = [
   {
     path:'consultar-equipamento/:id',
     component:ConsultarEquipamentoComponent
+  },
+  {
+    path:'login',
+    component:LoginUsuarioComponent
+  },
+  {
+    path:'loginColaborador',
+    component:LoginColaboradorComponent
   },
 
 ];

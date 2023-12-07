@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "comcap-bd": {
+      "hosting": {
+        "COMCAP": [
+          "comcap-bd"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "comcap-bd"
+  }
+}

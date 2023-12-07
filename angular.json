@@ -93,9 +93,15 @@
             "styles": [
               "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
-
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2,
+            "browserTarget": "COMCAP:build:production"
           }
         }
       }

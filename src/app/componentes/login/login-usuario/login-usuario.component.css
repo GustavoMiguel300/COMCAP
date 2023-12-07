@@ -52,6 +52,7 @@ form{
 .input-box span{
     position: absolute;
     left: 0;
+    
     padding: 10px;
     pointer-events: none;
     font-size: 1em;

@@ -11,6 +11,7 @@ import { HistoricoComponent } from './componentes/artigos/historico/historico.co
 import { SobreComcapComponent } from './componentes/artigos/sobre-comcap/sobre-comcap.component';
 import { LoginUsuarioComponent } from './componentes/login/login-usuario/login-usuario.component';
 import { LoginColaboradorComponent } from './componentes/login/login-colaborador/login-colaborador.component';
+import { CriarContaComponent } from './componentes/login/criar-conta/criar-conta.component';
 
 
 const routes: Routes = [
@@ -60,6 +61,10 @@ const routes: Routes = [
   {
     path:'loginColaborador',
     component:LoginColaboradorComponent
+  },
+  {
+    path:'cadastrar',
+    component:CriarContaComponent
   },
 
 ];

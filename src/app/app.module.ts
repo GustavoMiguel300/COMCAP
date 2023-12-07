@@ -35,6 +35,11 @@ import { HistoricoComponent } from './componentes/artigos/historico/historico.co
 import { LoginUsuarioComponent } from './componentes/login/login-usuario/login-usuario.component';
 import { LoginColaboradorComponent } from './componentes/login/login-colaborador/login-colaborador.component';
 import { CriarContaComponent } from './componentes/login/criar-conta/criar-conta.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { AngularFireModule } from '@angular/fire/compat'
 
 
 
@@ -78,7 +83,11 @@ import { CriarContaComponent } from './componentes/login/criar-conta/criar-conta
     MatFormFieldModule,
     MatInputModule,
     MatSidenavModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideFirestore(() => getFirestore()),
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [AppComponent]

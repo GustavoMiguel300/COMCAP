@@ -39,7 +39,8 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
-import { AngularFireModule } from '@angular/fire/compat'
+import { AngularFireModule } from '@angular/fire/compat';
+import { TesteFormComponent } from './componentes/login/teste-form/teste-form.component'
 
 
 
@@ -63,6 +64,7 @@ import { AngularFireModule } from '@angular/fire/compat'
     LoginUsuarioComponent,
     LoginColaboradorComponent,
     CriarContaComponent,
+    TesteFormComponent,
 
 
   ],

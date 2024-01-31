@@ -1,5 +1,6 @@
 .form-control{
   box-shadow: none;
+  padding: 15px;
 }
 .form-control:focus{
   border: 1px solid green;
@@ -10,16 +11,25 @@
   font-size: 32px;
   text-align: center;
 }
-
+form{
+  display: flex;
+  min-height: 120vh;
+  flex-direction: column;
+  gap: 30px;
+}
 
 .form-group, option{
   margin-right: 10px;
   color: #828487;
 }
-
+ .inputBox span{
+  background-color: #fff;
+  padding: 5px;
+ }
 
 #cadastrar-area{
   margin-left: 20%;
+  
 }
 
 input{
@@ -78,3 +88,75 @@ form .submit-buttom:hover{
   padding: 0 10px;
   background-color: #fff;
 }
+
+.inputBox{
+  position: relative;
+  width: 250px;
+}
+
+.inputBox input{
+  width: 100%;
+  padding: 15px;
+  font-size: 1em;
+}
+
+.inputBox span{
+  position: absolute;
+  left: 20px;
+  top:24px;
+  padding: 5px;
+  pointer-events: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: #828487;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
+{
+  transform: translateX(10px) translateY(-10px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+.inputBoxMail{
+  position: relative;
+  width: 1200px;
+}
+
+.inputBoxMail input{
+  width: 100%;
+  padding: 15px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  
+}
+
+.inputBoxMail span{
+  position: absolute;
+  left: 20px;
+  top:24px;
+  padding: 5px;
+  pointer-events: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-color: #fff;
+  color: #828487;
+}
+
+.inputBoxMail input:valid ~ span,
+.inputBoxMail input:focus ~ span
+{
+  transform: translateX(10px) translateY(-10px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+select{
+  color: #828487;
+}
+

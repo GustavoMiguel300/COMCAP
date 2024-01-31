@@ -12,6 +12,7 @@ import { SobreComcapComponent } from './componentes/artigos/sobre-comcap/sobre-c
 import { LoginUsuarioComponent } from './componentes/login/login-usuario/login-usuario.component';
 import { LoginColaboradorComponent } from './componentes/login/login-colaborador/login-colaborador.component';
 import { CriarContaComponent } from './componentes/login/criar-conta/criar-conta.component';
+import { TesteFormComponent } from './componentes/login/teste-form/teste-form.component';
 
 
 const routes: Routes = [
@@ -66,6 +67,11 @@ const routes: Routes = [
     path:'cadastrar',
     component:CriarContaComponent
   },
+  {
+    path:'teste-form',
+    component:TesteFormComponent
+  },
+
 
 ];
 

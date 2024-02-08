@@ -7,15 +7,15 @@
                     <h3>Fazer Login</h3>
                     <form action="">
                         <div class="input-box">
-                            <input type="text" required="required">
+                            <input type="text" required="required" name="email" [(ngModel)]="email">
                             <span>E-mail</span>
                         </div>
                         <div class="input-box">
-                            <input type="password" required="required">
+                            <input type="password" required="required" name="senha" [(ngModel)]="senha">
                             <span>Senha</span>
                         </div>
                         <span class="cadastrar-call">ainda não possui cadastro? <span routerLink="/cadastrar" class="cadastrar-link" style="color: #E87654;"> criar conta </span></span>
-                        <input type="button" class="col-md-5 submit-buttom" value="Login">
+                        <input type="button" class="col-md-5 submit-buttom" value="Login" (click)="login()">
                     </form>
                     
                 </div>

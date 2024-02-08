@@ -9,21 +9,21 @@
                       </div>
                     <div class="row">
                       <div class="col-md-3 inputBox">
-                        <input type="text" class="form-control" required = "required" >
+                        <input type="text" class="form-control" required = "required" name="nome" [(ngModel)]="nome" >
                         <span>Nome</span>
                       </div>
                       <div class="col-md-3 inputBox">
-                        <input type="text" class="form-control" required = "required" >
+                        <input type="text" class="form-control" required = "required" name="sobrenome" [(ngModel)]="sobrenome">
                         <span>Sobrenome</span>
                       </div>
                       <div class="col-md-8 inputBoxMail">
-                        <input type="email" class="form-control" required="required" >
+                        <input type="email" class="form-control" required="required" name="email" [(ngModel)]="email">
                         <span>E-MAIL</span>
                       </div>
                       
                       <div class="form-group col-md-4">
                         <label for="inputID" >Documento</label>
-                        <select id="inputID" class="form-control">
+                        <select id="inputID" class="form-control" name="documento" [(ngModel)]="documento">
                           <option class="zinca" selected>Escolha o documento...</option>
                           <option>CPF</option>
                           <option>CNPJ</option>
@@ -31,17 +31,17 @@
                         </select>
                       </div>
                       <div class="col-md-8 inputBoxMail">
-                        <input type="text" class="form-control" required = "required" >
+                        <input type="text" class="form-control" required = "required" name="documentoNum" [(ngModel)]="documentoNum">
                         <span>Documento</span>
                       </div>
                       <div class="col-md-8">
-                        <input type="password" class="form-control" placeholder="Senha">
+                        <input type="password" class="form-control" placeholder="Senha" name="senha" [(ngModel)]="senha">
                       </div>
                       <div class="col-md-8">
-                        <input type="password" class="form-control" placeholder="Confirme sua senha"> 
+                        <input type="password" class="form-control" placeholder="Confirme sua senha" name="senhaconf" [(ngModel)]="senhaconf"> 
                       </div>
                     </div>
-                    <input type="button" class="col-md-4 submit-buttom" value="Cadastrar">
+                    <input type="button" class="col-md-4 submit-buttom" value="Cadastrar" (click)="cadastrar()">
                   </form>
             </div>
         </div>

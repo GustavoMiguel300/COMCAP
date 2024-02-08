@@ -160,3 +160,17 @@ select{
   color: #828487;
 }
 
+
+.inputBoxMail input:valid ~span
+.inputBoxMail input:focus~span
+{
+  transform: rotateX('60');
+  transform: rotateY('45');
+  padding: 0.5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #437764;
+  background-image: -moz-repeating-linear-gradient();
+  transition: 0.5s;
+}

@@ -3,42 +3,62 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 formulario-div">
-                <form>
+                <form [formGroup]="formulario">
                     <div class="col-md-12 ">
                         <h3 class="main-title zinca" >Criar uma conta do COMCAP</h3>
                       </div>
                     <div class="row">
                       <div class="col-md-3 inputBox">
-                        <input type="text" class="form-control" required = "required" name="nome" [(ngModel)]="nome" >
+                        <input type="text" class="form-control" required = "required" formControlName="nome" id="nome" [(ngModel)]="nome" >
                         <span>Nome</span>
                       </div>
+                      <div class="mensagem__erro" *ngIf="formulario.get('nome')?.errors && formulario.get('nome')?.touched">
+                        campo obrigatório!
+                      </div>
                       <div class="col-md-3 inputBox">
-                        <input type="text" class="form-control" required = "required" name="sobrenome" [(ngModel)]="sobrenome">
+                        <input type="text" class="form-control" required = "required" name="sobrenome" formControlName="sobrenome" id="sobrenome" [(ngModel)]="sobrenome">
                         <span>Sobrenome</span>
                       </div>
+                      <div class="mensagem__erro" *ngIf="formulario.get('sobrenome')?.errors && formulario.get('sobrenome')?.touched">
+                        campo obrigatório!
+                      </div>
                       <div class="col-md-8 inputBoxMail">
-                        <input type="email" class="form-control" required="required" name="email" [(ngModel)]="email">
+                        <input type="email" class="form-control" required="required" name="email" formControlName="email" [(ngModel)]="email">
                         <span>E-MAIL</span>
                       </div>
-                      
+                      <div class="mensagem__erro" *ngIf="formulario.get('email')?.errors && formulario.get('email')?.touched">
+                        campo obrigatório!
+                      </div>
                       <div class="form-group col-md-4">
                         <label for="inputID" >Documento</label>
-                        <select id="inputID" class="form-control" name="documento" [(ngModel)]="documento">
+                        <select id="inputID" class="form-control" name="documento" formControlName="documento" [(ngModel)]="documento">
                           <option class="zinca" selected>Escolha o documento...</option>
                           <option>CPF</option>
                           <option>CNPJ</option>
                           <option>RA</option>
                         </select>
                       </div>
+                      <div class="mensagem__erro" *ngIf="formulario.get('documento')?.errors && formulario.get('documento')?.touched">
+                        campo obrigatório!
+                      </div>
                       <div class="col-md-8 inputBoxMail">
-                        <input type="text" class="form-control" required = "required" name="documentoNum" [(ngModel)]="documentoNum">
+                        <input type="text" class="form-control" required = "required" name="documentoNum" formControlName="documentoNum" [(ngModel)]="documentoNum">
                         <span>Documento</span>
                       </div>
-                      <div class="col-md-8">
-                        <input type="password" class="form-control" placeholder="Senha" name="senha" [(ngModel)]="senha">
+                      <div class="mensagem__erro" *ngIf="formulario.get('documentoNum')?.errors && formulario.get('documentoNum')?.touched">
+                        campo obrigatório!
                       </div>
                       <div class="col-md-8">
-                        <input type="password" class="form-control" placeholder="Confirme sua senha" name="senhaconf" [(ngModel)]="senhaconf"> 
+                        <input type="password" class="form-control" placeholder="Senha" name="senha" formControlName="senha" [(ngModel)]="senha">
+                      </div>
+                      <div class="mensagem__erro" *ngIf="formulario.get('senha')?.errors && formulario.get('senha')?.touched">
+                        campo obrigatório!
+                      </div>
+                      <div class="col-md-8">
+                        <input type="password" class="form-control" placeholder="Confirme sua senha" name="senhaconf" formControlName="senhaconf" [(ngModel)]="senhaconf"> 
+                      </div>
+                      <div class="mensagem__erro" *ngIf="formulario.get('senhaconf')?.errors && formulario.get('senhaconf')?.touched">
+                        campo obrigatório!
                       </div>
                     </div>
                     <input type="button" class="col-md-4 submit-buttom" value="Cadastrar" (click)="cadastrar()">

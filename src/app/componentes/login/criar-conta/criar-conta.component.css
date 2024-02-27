@@ -174,3 +174,12 @@ select{
   background-image: -moz-repeating-linear-gradient();
   transition: 0.5s;
 }
+
+.mensagem__erro {
+  font-size: 12px;
+  margin-left: 5px;
+  color: red;
+  margin-top: -25px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
